@@ -1,0 +1,230 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/arnabbhakta/Documents/Dishasolution/Conapp01/Conapp01.csproj": {}
+  },
+  "projects": {
+    "/Users/arnabbhakta/Documents/Dishasolution/BusinessLogicLayer/BusinessLogicLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arnabbhakta/Documents/Dishasolution/BusinessLogicLayer/BusinessLogicLayer.csproj",
+        "projectName": "BusinessLogicLayer",
+        "projectPath": "/Users/arnabbhakta/Documents/Dishasolution/BusinessLogicLayer/BusinessLogicLayer.csproj",
+        "packagesPath": "/Users/arnabbhakta/.nuget/packages/",
+        "outputPath": "/Users/arnabbhakta/Documents/Dishasolution/BusinessLogicLayer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/arnabbhakta/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/arnabbhakta/Documents/Dishasolution/DataAccessLayer/DataAccessLayer.csproj": {
+                "projectPath": "/Users/arnabbhakta/Documents/Dishasolution/DataAccessLayer/DataAccessLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/arnabbhakta/Documents/Dishasolution/Conapp01/Conapp01.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arnabbhakta/Documents/Dishasolution/Conapp01/Conapp01.csproj",
+        "projectName": "Conapp01",
+        "projectPath": "/Users/arnabbhakta/Documents/Dishasolution/Conapp01/Conapp01.csproj",
+        "packagesPath": "/Users/arnabbhakta/.nuget/packages/",
+        "outputPath": "/Users/arnabbhakta/Documents/Dishasolution/Conapp01/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/arnabbhakta/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/arnabbhakta/Documents/Dishasolution/BusinessLogicLayer/BusinessLogicLayer.csproj": {
+                "projectPath": "/Users/arnabbhakta/Documents/Dishasolution/BusinessLogicLayer/BusinessLogicLayer.csproj"
+              },
+              "/Users/arnabbhakta/Documents/Dishasolution/DataAccessLayer/DataAccessLayer.csproj": {
+                "projectPath": "/Users/arnabbhakta/Documents/Dishasolution/DataAccessLayer/DataAccessLayer.csproj"
+              },
+              "/Users/arnabbhakta/Documents/Dishasolution/DishaLibrary01/DishaLibrary01.csproj": {
+                "projectPath": "/Users/arnabbhakta/Documents/Dishasolution/DishaLibrary01/DishaLibrary01.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/arnabbhakta/Documents/Dishasolution/DataAccessLayer/DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arnabbhakta/Documents/Dishasolution/DataAccessLayer/DataAccessLayer.csproj",
+        "projectName": "DataAccessLayer",
+        "projectPath": "/Users/arnabbhakta/Documents/Dishasolution/DataAccessLayer/DataAccessLayer.csproj",
+        "packagesPath": "/Users/arnabbhakta/.nuget/packages/",
+        "outputPath": "/Users/arnabbhakta/Documents/Dishasolution/DataAccessLayer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/arnabbhakta/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/arnabbhakta/Documents/Dishasolution/DishaLibrary01/DishaLibrary01.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arnabbhakta/Documents/Dishasolution/DishaLibrary01/DishaLibrary01.csproj",
+        "projectName": "DishaLibrary01",
+        "projectPath": "/Users/arnabbhakta/Documents/Dishasolution/DishaLibrary01/DishaLibrary01.csproj",
+        "packagesPath": "/Users/arnabbhakta/.nuget/packages/",
+        "outputPath": "/Users/arnabbhakta/Documents/Dishasolution/DishaLibrary01/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/arnabbhakta/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

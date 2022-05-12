@@ -1,0 +1,129 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "BusinessLogicLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DataAccessLayer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BusinessLogicLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessLogicLayer.dll": {}
+        }
+      },
+      "DataAccessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DataAccessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccessLayer.dll": {}
+        }
+      },
+      "DishaLibrary01/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DishaLibrary01.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DishaLibrary01.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BusinessLogicLayer/1.0.0": {
+      "type": "project",
+      "path": "../BusinessLogicLayer/BusinessLogicLayer.csproj",
+      "msbuildProject": "../BusinessLogicLayer/BusinessLogicLayer.csproj"
+    },
+    "DataAccessLayer/1.0.0": {
+      "type": "project",
+      "path": "../DataAccessLayer/DataAccessLayer.csproj",
+      "msbuildProject": "../DataAccessLayer/DataAccessLayer.csproj"
+    },
+    "DishaLibrary01/1.0.0": {
+      "type": "project",
+      "path": "../DishaLibrary01/DishaLibrary01.csproj",
+      "msbuildProject": "../DishaLibrary01/DishaLibrary01.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "BusinessLogicLayer >= 1.0.0",
+      "DataAccessLayer >= 1.0.0",
+      "DishaLibrary01 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/arnabbhakta/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/arnabbhakta/Documents/Dishasolution/Conapp01/Conapp01.csproj",
+      "projectName": "Conapp01",
+      "projectPath": "/Users/arnabbhakta/Documents/Dishasolution/Conapp01/Conapp01.csproj",
+      "packagesPath": "/Users/arnabbhakta/.nuget/packages/",
+      "outputPath": "/Users/arnabbhakta/Documents/Dishasolution/Conapp01/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/arnabbhakta/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/Users/arnabbhakta/Documents/Dishasolution/BusinessLogicLayer/BusinessLogicLayer.csproj": {
+              "projectPath": "/Users/arnabbhakta/Documents/Dishasolution/BusinessLogicLayer/BusinessLogicLayer.csproj"
+            },
+            "/Users/arnabbhakta/Documents/Dishasolution/DataAccessLayer/DataAccessLayer.csproj": {
+              "projectPath": "/Users/arnabbhakta/Documents/Dishasolution/DataAccessLayer/DataAccessLayer.csproj"
+            },
+            "/Users/arnabbhakta/Documents/Dishasolution/DishaLibrary01/DishaLibrary01.csproj": {
+              "projectPath": "/Users/arnabbhakta/Documents/Dishasolution/DishaLibrary01/DishaLibrary01.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
